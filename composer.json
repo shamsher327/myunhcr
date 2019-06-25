@@ -34,6 +34,7 @@
         "drupal/core": "^8.7.0",
         "drupal/devel_php": "^1.0",
         "drupal/drupal8_parallax_theme": "^1.8",
+        "drupal/lang_dropdown": "^2.0",
         "drupal/nexus": "^1.4",
         "drupal/simplenews": "1.0-beta1",
         "drush/drush": "9.5.2",
@@ -84,46 +85,31 @@
             "drupal/core": "-p2"
         },
         "installer-paths": {
+            "drush/Commands/{$name}": [
+                "type:drupal-drush"
+            ],
             "web/core": [
                 "type:drupal-core"
-            ],
-            "web/libraries/{$name}": [
-                "type:drupal-library"
             ],
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
             "web/profiles/contrib/{$name}": [
                 "type:drupal-profile"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
             ],
             "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
-            "drush/Commands/{$name}": [
-                "type:drupal-drush"
-            ],
-            "docroot/core": [
-                "type:drupal-core"
-            ],
-            "docroot/modules/contrib/{$name}": [
-                "type:drupal-module"
-            ],
-            "docroot/modules/custom/{$name}": [
-                "type:drupal-custom-module"
-            ],
-            "docroot/profiles/contrib/{$name}": [
-                "type:drupal-profile"
-            ],
-            "docroot/profiles/custom/{$name}": [
-                "type:drupal-custom-profile"
-            ],
-            "docroot/themes/contrib/{$name}": [
-                "type:drupal-theme"
-            ],
-            "docroot/themes/custom/{$name}": [
+            "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ],
-            "docroot/libraries/{$name}": [
+            "web/libraries/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"
