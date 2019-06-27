@@ -58,5 +58,11 @@
  */
 
 // URL: http://local.vitrine2.com/us
-$sites['us.local.vitrine2.com'] = 'us.local.vitrine2.com';
-$sites['eu.local.vitrine2.com'] = 'eu.local.vitrine2.com';
+$sites['us.myunhcr.com'] = 'us.myunhcr.com';
+$sites['eu.myunhcr.com'] = 'eu.myunhcr.com';
+$sites['myunhcr-bh.wishtreetech.com'] = 'myunhcr-bh.wishtreetech.com';
+$sites['myunhcr-kw.wishtreetech.com'] = 'myunhcr-kw.wishtreetech.com';
+$sites['myunhcr-om.wishtreetech.com'] = 'myunhcr-om.wishtreetech.com';
+$sites['myunhcr-qa.wishtreetech.com'] = 'myunhcr-qa.wishtreetech.com';
+$sites['myunhcr-sa.wishtreetech.com'] = 'myunhcr-sa.wishtreetech.com';
+$sites['myunhcr-ae.wishtreetech.com'] = 'myunhcr-ae.wishtreetech.com';
